@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &829988449010494264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829988449010494266}
+  - component: {fileID: 829988449010494265}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829988449010494266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829988449010494264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &829988449010494265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829988449010494264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c21c94cb972f14396a5ef159d467f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crystalTotal: {fileID: 0}
+  shieldText: {fileID: 0}
+  chillyText: {fileID: 0}
+  shieldAmount: {fileID: 0}
+  chillyAmount: {fileID: 0}
+  slowAmount: {fileID: 0}
+  slowText: {fileID: 0}
+  soundOn: {fileID: 21300000, guid: b657f781f0319414fa63b7fe0715a791, type: 3}
+  soundOff: {fileID: 21300000, guid: 698d7bb997f766b4184e354139c7a913, type: 3}
+  musicOff: {fileID: 21300000, guid: b91949b438d6e1c4e906b977d4b52505, type: 3}
+  musicOn: {fileID: 21300000, guid: c4350618fe68c4e479d9bb7f19da98c8, type: 3}
+  soundButton: {fileID: 7951341936080978259, guid: 2e0a3d3b43dc0f143a4b8fd081ddd28c,
+    type: 3}
+  musicButton: {fileID: 8248001429423815899, guid: bd65a0022ca0dcc4fa4c2b3f77831562,
+    type: 3}
+  musicManager: {fileID: 4724184820180117087, guid: fb0d9e55f6e29ab4ba797888a5900c86,
+    type: 3}
+  greenFlashImage: {fileID: 0}
+  redFlashImage: {fileID: 0}
+  pauseMenu: {fileID: 0}
+  homeMenu: {fileID: 0}
+  restartMenu: {fileID: 0}
+  slowMonster: 0
+  are10SecondsOver: 1
+  resumed: 0
